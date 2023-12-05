@@ -528,6 +528,7 @@ nav {
 .retailers-images img {
     border-radius: 20px;
     margin: 10px;
+    margin-bottom: 0px;
 
 }
 
@@ -703,6 +704,11 @@ nav {
     justify-content: center; /* Center items horizontally */
 }
 
+.brand .brand-container .brand-item img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
 
 /*product Item*/
 
@@ -897,6 +903,7 @@ nav {
 }
 
 .brand-section .brand-items {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
