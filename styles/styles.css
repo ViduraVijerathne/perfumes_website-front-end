@@ -531,7 +531,7 @@ nav {
     border-radius: 20px;
     margin: 10px;
     margin-bottom: 0px;
-    width: 250px;
+    width: 384px;
     height: 250px;
 
 }
@@ -573,6 +573,19 @@ nav {
 .team-member {
     width: 300px;
     margin: 5px;
+}
+
+.description ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.description ul li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: var(--accesnt-color); /* Color of the bullet */
+    font-size: 20px; /* Adjust the size of the bullet as needed */
+    margin-right: 5px; /* Adjust the spacing between the bullet and the text */
 }
 
 .team-container {
@@ -709,7 +722,7 @@ nav {
 }
 
 .brand .brand-container .brand-item img{
-    width: 200px;
+    width: 314px;
     height: 200px;
     margin: 10px;
 }
